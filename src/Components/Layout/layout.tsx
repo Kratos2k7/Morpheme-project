@@ -79,7 +79,7 @@ const Layouts: React.FC<Props> = ({ children }) => {
             className=" apply-font text-center text-lg text-for-text font-semibold "
             style={{ fontFamily: fonts, fontSize: fontSize }}
           >
-            Grammer App
+            grammer App
           </h6>
         </Header>
         <Content>
