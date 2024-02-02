@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'noorehuda';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('./assets/font/noorehuda.ttf') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./assets/font/noorehuda.ttf') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #eee;
+  box-shadow: 0 0 1px 1px #bbb, inset 0 0 7px rgba(0,0,0,0.3)
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(to left, #6b717b, #565d66);
+  box-shadow: inset 0 0 1px 1px #5C6670;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to left, #6b717b, #565d66);
+}
+
+
